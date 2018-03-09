@@ -1,5 +1,7 @@
 package com.toyama.finagle.api.request
 
-case class AdReq(adReqBody: AdReqBody)
+case class AdReq(adReqBody: SspAdReqBody)
 
-case class AdReqBody(app_id: Int)
+case class SspAdReqBody(app_id: Int)
+
+case class DspAdReqBody(app_id: Int)
